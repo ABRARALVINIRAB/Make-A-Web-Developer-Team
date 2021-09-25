@@ -1,0 +1,66 @@
+[
+    {
+      "img": "https://i.ibb.co/Y3gFLyF/Dennis-Ritchie.webp",
+      "name": "Dennis Ritchie",
+      "role": "Programers",
+      "age": 68,
+      "country": "Americs",
+      "salary": 12200
+    },
+    {
+      "img": "https://i.ibb.co/rb5jMJH/two.jpg",
+      "name": "Biklu",
+      "role": "Video editing",
+      "age": 60,
+      "country": "Canada",
+      "salary": 6700
+    },
+    {
+      "img": "https://i.ibb.co/nw3fgRW/p-2.webp",
+      "name": "Stroustrup",
+      "role": "Video editing",
+      "age": 50,
+      "country": "Denmark ",
+      "salary": 7030
+    },
+    {
+      "img": "https://i.ibb.co/rHTjYr8/four.jpg",
+      "name": " Stroustrup",
+      "role": "Designer",
+      "age": 30,
+      "country": "Usa ",
+      "salary": 8130
+    },
+    {
+      "img": "https://i.ibb.co/khY027D/5.jpg",
+      "name": "Alcias",
+      "role": "Marketing",
+      "age": 40,
+      "country": "Bangladesh ",
+      "salary": 1360
+    },
+    {
+      "img": "https://i.ibb.co/TkbChsK/7.jpg",
+      "name": "Akashleena",
+      "role": "Idea makers",
+      "age": 30,
+      "country": "India ",
+      "salary": 51360
+    },
+    {
+      "img": "https://i.ibb.co/VBPjhvs/jam.webp",
+      "name": "James Arthur Gosling ",
+      "role": "Web developer",
+      "age": 50,
+      "country": "Thailand",
+      "salary": 7160
+    },
+    {
+      "img": "https://i.ibb.co/8srz7p6/gg.webp",
+      "name": "Guido van Rossum ",
+      "role": "Web developer",
+      "age": 50,
+      "country": "Dutch",
+      "salary": 4160
+    }
+  ]
