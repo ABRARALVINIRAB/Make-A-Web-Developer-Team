@@ -2,3 +2,11 @@
     background-color: lemonchiffon;
     margin-top: 10px;
 }
+
+.text-color {
+    color: lightseagreen;
+}
+
+.img {
+    border-radius: 50%;
+}

@@ -1,7 +1,7 @@
 [
   {
-    "img":"https://i.ibb.co/Y3gFLyF/Dennis-Ritchie.webp",
-    "name":"Dennis Ritchie",
+    "img":"https://i.ibb.co/rHTjYr8/four.jpg",
+    "name":"Moriba",
     "role":"Programers",
     "id":1,
     "age":68,
@@ -18,8 +18,8 @@
     "salary":6700
   },
   {
-    "img":"https://i.ibb.co/nw3fgRW/p-2.webp",
-    "name":"Stroustrup",
+    "img":"https://i.ibb.co/TkbChsK/7.jpg ",
+    "name":" Akashleena",
     "role":"Video editing",
     "id":3,
     "age":50,
@@ -27,7 +27,7 @@
     "salary":7030
   },
   {
-    "img":"https://i.ibb.co/rHTjYr8/four.jpg",
+    "img":" https://i.ibb.co/Y3gFLyF/Dennis-Ritchie.webp",
     "name":" Moriba",
     "role":"Designer",
     "id":4,
@@ -45,8 +45,8 @@
     "salary":1360
   },
   {
-    "img":"https://i.ibb.co/TkbChsK/7.jpg",
-    "name":"Akashleena",
+    "img":"https://i.ibb.co/nw3fgRW/p-2.webp",
+    "name":"Stroustrup",
     "role":"Idea makers",
     "age":30,
     "id":6,
@@ -106,14 +106,5 @@
     "age":40,
     "country":"Finland",
     "salary":280
-  },
-  {
-    "img":"https://i.ibb.co/m5KjLK1/12.jpg",
-    "name":"Helcinki ",
-    "role":"Programmer",
-    "id":13,
-    "age":34,
-    "country":"Bangladesh",
-    "salary":14160
   }
 ]

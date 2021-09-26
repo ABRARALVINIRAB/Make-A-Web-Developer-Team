@@ -9,7 +9,7 @@ import TeamMembers from './component/TeamMembers/TeamMembers';
 
 function App() {
   return (
-    <div className="App back">
+    <div className="App ">
 
       <Header></Header>
       <TeamMembers></TeamMembers>
