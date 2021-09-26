@@ -1,7 +1,8 @@
 import React, { useEffect, useState } from 'react';
-import Cart from '../../Cart/Cart';
+import Cart from '../Cart/Cart';
 import Member from '../Member/Member';
 import './TeamMembers.css'
+
 
 const TeamMembers = () => {
     const [members, setMembers] = useState([]);
@@ -10,24 +11,28 @@ const TeamMembers = () => {
             .then(res => res.json())
             .then(data => setMembers(data))
     }, []);
-    const [addmember, setMember] = useState([])
-    const membersAdd = (members) => {
+    const [addMember, setAddMember] = useState([])
+    const handleAddToMember = (singleMember) => {
+        const newState = [...addMember, singleMember];
+        setAddMember(newState)
 
-        const newCount = [...addmember, members];
-        setMember(newCount);
     }
+    // console.log(addMember)
 
     return (
         <div className='team-members-container'>
+            
             <div className='left-side-members-container'>
                 {
                     members.map(member => <Member member={member}
-                        membersAdd={membersAdd}
+                        key={member.id}
+                        handleAddToMember={handleAddToMember}
+
                     ></Member>)
                 }
             </div>
             <div>
-                <Cart addmember={addmember}></Cart>
+                <Cart addMember={addMember} ></Cart>
             </div>
 
         </div>

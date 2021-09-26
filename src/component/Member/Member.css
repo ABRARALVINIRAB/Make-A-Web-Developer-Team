@@ -3,6 +3,8 @@
     margin-left: 100px;
     color: black;
     padding: 5px;
+    border-radius: 20px;
+
 
 
     background-color: #8BC6EC;
@@ -26,5 +28,6 @@
     margin-right: 4px;
     padding: 6px;
     border-radius: 10px;
-    background-color: white;
+    background-color: goldenrod;
+    color: black;
 }

@@ -4,7 +4,8 @@ import { faShoppingCart } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 const Member = (props) => {
-    // console.log(props.member.name)
+
+    
 
     const { img, name, role, age, country, salary } = props.member;
     const element = <FontAwesomeIcon icon={faShoppingCart} />
@@ -18,7 +19,8 @@ const Member = (props) => {
             <h4>Age:{age}</h4>
             <h4>Country:{country}</h4>
             <h3>Salary:${salary}</h3>
-            <button onClick={() => props.membersAdd(props.member)}
+            <button onClick={()=>props.handleAddToMember(props.member)}
+
                 className='cart-btn' > {element} Add To Cart</button>
 
         </div>
